@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const URI = "mongodb://127.0.0.1:27017/Contact-list-t";
+const URI = "mongodb://mongo:pRBWph8iCGpgCcuHGr78@containers-us-west-144.railway.app:7345";
 
 mongoose.set("strictQuery", true);
 mongoose
