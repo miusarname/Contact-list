@@ -17,7 +17,7 @@ const Routes = require("./routes/contact.routes");
 app.use("/api/contacts", Routes);
 
 //Static files
-front = path.join(__dirname + "/public/vite-project/dist");
+front = path.join(__dirname + "/public/dist");
 app.use(express.static(front));
 
 //server
